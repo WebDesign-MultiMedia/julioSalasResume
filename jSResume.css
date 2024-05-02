@@ -1,0 +1,1099 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: navy ;
+    }
+
+
+
+
+    /* headings */
+    .headings{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+     .top-head > h1{
+        color: gold;
+        font-family: "Montserrat", sans-serif;
+        filter: drop-shadow(2px 2px 4px black);
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 7vw;
+        
+    }
+
+    .top-head > h3{
+        color: white;
+        font-family: "DM Mono", monospace;
+        font-weight: 320;
+        font-style: normal;
+        font-size: 5vw;
+        filter: drop-shadow(2px 2px 6px black);
+    }
+
+    .contactMe a{
+        text-decoration: none;
+        font-size: 6vw;
+        color: gold;
+        filter: drop-shadow(2px 2px 4px black);
+        font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+
+    .contactMe a:hover{
+        color: white;
+    }
+    .fa-solid{
+        font-size: 4.5vw;
+        padding-right: 10px;
+    }
+  .fa-regular{
+    font-size: 4.5vw;
+    padding-right: 10px;
+}
+
+    .aboutMe{
+        padding: 0 40px 0 40px;
+        font-family: "DM Mono", monospace;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    .aboutMe p{
+        color: white;
+    }
+
+    .fa-linkedin{
+        font-size: 9vw;
+        color: #0a66c2;
+        filter: drop-shadow(2px 2px 10px black);
+    }
+
+    .fa-linkedin:hover{
+        color: #ffbf00;
+    }
+
+
+        /* My projetas */ 
+
+    .myProjects{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 10em;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.47);
+
+        position: relative;
+        top: 260px;
+
+
+    }
+
+    .myProjects .projectHead{
+        font-size: 6vw;
+        color: gold;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 265;
+        font-style: normal;
+
+        
+    }
+
+    .myProjects a{
+        color: white;
+        display: flex;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 20px;
+        filter: drop-shadow(2px 2px 1px black);
+        text-decoration: overline 1px;
+        font-family: "DM Mono", monospace;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .myProjects  a:hover{
+        color: #ffbf00;
+    }
+
+
+        /* Skills */
+
+    .mySkills{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.47);
+
+        position: relative;
+        top: 260px;
+    }
+
+    .mySkills, .fa-graduation-cap{
+        padding-left: 10px;
+    }
+
+    .mySkills .skills{
+        color: #ffbf00;
+        font-size: 6vw;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 765;
+        font-style: normal;
+    }
+
+    .technical h3{
+        color: white;
+        text-align: center;
+        position: relative;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 765;
+        font-style: normal;
+
+        text-decoration: overline 1px;
+    }
+
+    .soft h3{
+        text-align: center;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 765;
+        font-style: normal;
+
+        text-decoration: overline 1px;
+    }
+
+    .mySkills li{
+        color: gold;
+        font-size: 20px;
+        text-align: left;
+        list-style-type: none;
+        padding: 6px;
+
+        font-family: "DM Mono", monospace;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .skills  h3{
+        position: relative;
+        top: 30px;
+        
+    }
+
+
+
+
+
+
+    /* Education */
+
+    .myEducation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.47);
+        position: relative;
+        top: 260px;
+        padding-top: 26px;
+        }
+
+.myEducation .Education{
+    color: gold;
+    font-size: 6vw;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 265;
+    font-style: normal;
+
+}
+
+.PerScholas, p em{
+    color: gold;
+    text-align: center;
+    font-size: 18px;
+
+    font-family: "DM Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.myEducation h4{
+    color: white;
+    font-size: 4.5vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 765;
+    font-style: normal;
+   
+    text-decoration: overline 1px;
+    
+}
+
+.fa-wind{
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    color: #d5edff;
+}
+.fa-car-side{
+    color: white;
+}
+
+.fa-laptop-code{
+    color: white;
+}
+.CUNY, p em{
+    color: gold;
+    text-align: center;
+    font-size: 18px;
+
+    font-family: "DM Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
+
+
+/* Eperience */
+
+.myExperience em{
+    color: white;
+    
+}
+        
+    .myExperience{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.47);
+
+        position: relative;
+        top: 260px;
+    }
+
+    .myExperience  h3{
+        font-size: 6vw;    
+        position: relative;
+        top: 109px;
+        color: #ffbf00;
+
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 765;
+        font-style: normal;
+    }
+    .myExperience  h4{
+        color: white;
+        font-size: 5vw;
+        position: relative;
+            top: 26px;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 765;
+            font-style: normal;
+            
+        
+    }
+    .airspaceTech, .DDSnyc{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    .airspaceTech #li-color{
+        color: white;
+    }
+
+    .DDSnyc p{
+        font-size: 15px;
+        text-decoration: underline overline;
+        color: #ffbf00;
+    }
+
+    .DDSnyc #li-color{
+        color: white;
+    }
+
+        .airspaceTech{
+            position: relative;
+            top: 50px;
+        }
+
+        .airspaceTech p{
+            text-decoration:  overline;
+
+        }
+
+        .DDSnyc p{
+            text-decoration:  overline;
+
+        }
+
+    .myExperience em{
+        color: white;
+        filter: drop-shadow(2px 2px 4px black);
+    }
+
+    .airspaceTech, p em{
+        color: #ffbf00;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    .DDSnyc, p em 
+    {
+        color: #ffbf00;
+    }
+
+    .myExperience li{
+        padding: 3px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+
+        background-color: red;
+
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: navy;
+    }
+
+    .headings{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+    .headings .aboutMe{
+        color: blue;
+        font-size: 2.8vw;
+        justify-content: flex-end;
+    }
+
+    .aboutMe p{
+        padding: 0 60px 0 100px;
+        position: relative;
+        top: 100px;
+        text-indent: 12px;
+        color: white;
+        text-align: right;
+    }
+
+    .top-head{
+        color: #ffbf00;
+        filter: drop-shadow(2px 2px 3px black);
+        font-size: 3vw;
+        position: absolute;
+        top: 90px;
+        left:50px;
+    }
+
+    .contactMe p{
+        padding-top: 1px;
+        position: relative;
+        top: 6em;
+        font-size: 2.3vw;
+        text-align: center;
+    }
+
+    .contactMe .fa-solid{
+        display: none;
+    }
+
+    .contactMe .fa-regular{
+        display: none;
+    }
+
+    .contactMe a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .contactMe a:hover{
+        color: gold;
+    }
+
+    .media {
+        color: white;
+        position: relative;
+        font-size: 40px;
+        top: 110px;
+        text-align: center;
+    }
+
+    .fa-linkedin{
+        color: #0a66c2;
+    }
+
+    .fa-linkedin:hover{
+        color: gold;
+    }
+
+  
+    /* My Projects */
+
+    .myProjects{
+        position: relative;
+        top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .myProjects .projectHead{
+        font-size: 3.8vw;
+    }
+
+    .projectHead{
+        text-align: center;
+        color: #ffbf00;
+    }
+
+    .myProjects div{
+        font-size: 3vw;
+        padding: 10px;     
+
+    }
+    
+    .myProjects a{
+        color: white;
+        display: flex;
+        text-decoration: none;
+        padding: 8px;
+    }
+
+    .myProjects a:hover{
+        color: #ffbf00;
+    }
+
+    .fa-utensils{
+        color: white;
+        padding-right: 15px;
+        text-decoration:line-through gold;
+    }
+
+    .fa-clipboard-check{
+        color: white;
+        padding-right: 15px;
+    }
+
+    .fa-pizza-slice{
+        color: white;
+        padding-right: 15px;
+    }
+
+    /* SKills */
+
+    .mySkills{
+        position: relative;
+        top: 470px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+
+    .skills{
+    color: #ffbf00;
+    font-size: 4vw;
+    text-align: center;
+    padding: 30px;
+    }
+
+ 
+    .technical h3{
+        font-size: 4vw;
+        padding-right: 20px;
+        color: gold;
+    }
+
+    .technical li{
+        padding: 10px;
+        font-size: 3.3vw;
+        color: white;
+        list-style-type: none;
+    }
+
+    .soft{
+        position: relative;
+        top: 65px;
+    }
+    .soft h3{
+        font-size: 4vw;
+        color: gold;
+    }
+
+    .soft li{
+        font-size: 3vw;
+        padding: 5px;
+        color: white;
+        list-style-type: none;
+    }
+    .mySkills .fa-solid{
+        color: white;
+    }
+
+    
+
+    /* Education */
+
+    .myEducation{
+        position: relative;
+        top: 650px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .myEducation .Education{
+        color: #ffbf00;
+        font-size: 4vw;
+        padding-left: 15px;
+        position: relative;
+        top: 60px;
+    }
+
+    .myEducation h4{
+        color: gold;
+        font-size: 3.5vw;
+    }
+
+    .myEducation, p em {
+        color: white;
+        font-size: 3vw;
+    }
+
+    .myEducation em{
+        color: #ffbf00;
+        filter: drop-shadow(2px 2px 2px black);
+    }
+
+    .fa-graduation-cap{
+        padding-left: 10px;
+    }
+
+
+
+
+
+    /* Experience */
+
+    .myExperience{
+        position: relative;
+        top: 855px;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    .myExperience h3{
+        color: #ffbf00;
+        font-size: 5vw;
+        position: absolute;
+        left: 25%;
+        top: -40px;
+    }
+
+    .myExperience h4{
+        font-size: 3.5vw;
+        text-align: center;
+        color: gold;
+    }
+
+            /* Airspace */
+
+    .airspaceTech{
+        position: relative;
+        top: 40px;
+    }
+    .airspaceTech p{
+        color: white;
+        text-align: center;
+        font-size: 1.5em;
+        filter: drop-shadow(2px 2px 2px black);
+    }
+
+    .airspaceTech em{
+        display: flex;
+        justify-content: center;
+        color:gold;
+        text-decoration: overline;
+        font-size: 1.5em;
+    }
+
+    .airspaceTech li{
+        font-size: 25px;
+        padding: 0 0 40px 0;
+        list-style-type: none;
+        text-indent: 20px;
+        position: relative;
+        top: 60px;
+    }
+
+    #li-color{
+        color: gold;
+    }
+        /* DSS */
+
+    .DDSnyc{
+        position: relative;
+        top: 120px;
+    }
+
+    .DDSnyc p{
+        color: white;
+        text-align: center;
+        font-size: 1.6em;
+        filter: drop-shadow(2px 2px 2px black);
+    }
+
+        .DDSnyc em{
+            display: flex;
+            justify-content: center;
+            color: gold;
+            text-decoration: overline;
+            font-size: 1.6em;
+        }
+
+  
+
+        .DDSnyc li{
+            font-size: 25px;
+            padding: 0 10px 40px 0;
+            list-style-type: none;
+            text-indent: 20px;
+            position: relative;
+            top: 20px;
+        }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: navy;
+    }
+    .headings{
+        font-size: 2em;
+
+    }
+
+    .top-head{
+        font-size: 1vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        left: 11%;
+    }
+    
+    .top-head > h1{
+        font-family: "Montserrat", sans-serif;
+        filter: drop-shadow(2px 2px 4px black);
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    .top-head > h3{
+        font-family: "DM Mono", monospace;
+        font-weight: 320;
+        font-style: normal;
+        color: white;
+    }
+
+    .contactMe p{
+        font-size: 1.3vw;
+        display: flex;
+        justify-content: center;
+        left: 70%;
+        top: 80px;
+    }
+
+    .contactMe a{
+        position: relative;
+        top: 100px;
+        z-index: 9;
+        color: #ffbf00;
+
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    .contactMe a:hover{
+        color: white;
+    }
+
+    .aboutMe{
+        font-family: "DM Mono", monospace;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    .aboutMe p{
+        text-align: left ;
+        font-size: 1.4vw;
+        padding: 0 120px 0 300px;
+    }
+
+    .fa-linkedin{
+        position: absolute;
+        bottom: 8.5em;
+        left: 4em;
+        color: rgb(205, 195, s195);
+        font-size: 30px;
+    }
+
+
+    /* Projects */
+
+    .myProjects .projectHead{
+        font-size: 1.7vw;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 265;
+        font-style: normal;
+    }
+
+    .myProjects a{
+        font-size: 1.3vw;
+        font-family: "DM Mono", monospace;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .myProjects {
+        display:flex ;
+        top: 10em;
+    }
+
+
+    /* Skills */
+
+    .mySkills{
+        display: flex;
+    
+    }
+
+    .mySkills .skills{
+        position: relative;
+        right: 150px;
+        top: -300px;
+        text-decoration: overline 1px white;
+
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 765;
+        font-style: normal;
+    }
+
+
+
+    .mySkills .technical{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 7%;
+        bottom: 90px;
+    }
+
+    .technical h3{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 765;
+        font-style: normal;
+    }
+
+    .technical .fa-gears{
+        padding-left:10px;
+        font-size: 25px;
+        position: absolute;
+        top: 40px;
+        padding-left: 10px;
+    }
+
+    .technical li{
+        font-size: 1vw;
+        font-family: "DM Mono", monospace;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .mySkills .soft{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+
+    .mySkills h3{
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 765;
+        font-style: normal;
+    }
+
+    .skills h3{
+        font-size: 2vw;
+    }
+
+    .soft .fa-cloud{
+        padding-left:10px;
+        font-size: 20px;
+        position: absolute;
+        padding-left: 15px;
+        top: 40px;
+    }
+
+    .soft li{
+        font-size: 1vw;
+        padding: 7px;
+
+        font-family: "DM Mono", monospace;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+
+    /* Education */
+
+    .myEducation{
+        display: flex;
+        padding: 100px;
+    }
+
+    .myEducation .Education{
+        position: relative;
+        right: 0;
+        left: 100px;
+        top: 0;
+        text-decoration: overline 0.5px white;
+        font-size: 1.6vw;
+
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 265;
+        font-style: normal;
+    }
+
+    .myEducation h4{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 765;
+        font-style: normal;
+    }
+
+    
+
+    .PerScholas{
+        position: relative;
+        top: 60px;
+        left: 0;
+    }
+    .PerScholas h4{
+        font-size: 1.4vw;
+    }
+
+    .PerScholas p {
+        font-size: 1.2vw;
+        text-decoration: overline 1px gold;
+        font-family: "DM Mono", monospace;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    .PerScholas em{
+        font-size: 1.4vw;
+        font-family: "DM Mono", monospace;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+
+    .CUNY{
+        position: relative;
+        top: 60px;
+        right: 150px;
+    }
+    .CUNY h4{
+        font-size: 1.4vw;
+    }
+
+    .CUNY p{
+        font-size: 1.2vw;
+        text-decoration: overline 1px gold;
+        font-family: "DM Mono", monospace;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .CUNY em{
+        font-size: 1.4vw;
+        font-family: "DM Mono", monospace;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+
+    /*  Experience */
+
+    .myExperience{
+        display: flex;
+    }
+
+    .myExperience h3{
+        position: relative;
+        top: -200px;
+        left: 200px;
+        text-decoration: overline 1px white;
+        font-size: 1.6vw;
+    
+        
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 765;
+        font-style: normal;
+    }
+
+    .myExperience h4{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 765;
+        font-style: normal;
+    }
+
+    .airspaceTech{
+        position: relative;
+        top: 10em;
+        left: 100px;
+        
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    .airspaceTech h4{
+        font-size: 1.4vw;
+
+    }
+
+    .airspaceTech li{
+        padding: 0 100px 50px 100px;
+        font-size: 1vw;
+
+    }
+
+    .airspaceTech em{
+        font-size: 20px;
+    }
+
+    .airspaceTech p{
+        font-size: 20px;
+    }
+
+    .DDSnyc{
+        position: relative;
+        top: 200px;
+        
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    .DDSnyc p{
+        font-size: 20px;
+    }
+
+    .DDSnyc h4{
+        font-size: 1.4vw;
+    }
+
+    .DDSnyc li{
+        padding: 0 200px 50px 200px;
+        font-size: 1vw;
+    }
+
+    .DDSnyc em{
+        font-size: 20px;
+
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {
+   body{
+        background-color: white;
+    }
+
+    .headings{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 200px 0 200px;
+    } */
+
+
+
